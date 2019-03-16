@@ -1,0 +1,28 @@
+{
+  "name": "jpf-trace-reader",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "bin": {
+    "jpf-trace-reader": "lib/index.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "@types/debug": "^4.1.2",
+    "@types/node": "^11.11.3",
+    "debug": "^4.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.3.3333"
+  },
+  "engines": {
+    "node": ">=10.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "npm run build",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "Michael Emmi <michael.emmi@gmail.com>",
+  "license": "MIT"
+}
