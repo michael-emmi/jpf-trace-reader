@@ -1,6 +1,7 @@
 {
   "name": "jpf-trace-reader",
   "version": "0.0.1",
+  "description": "Converts Java Pathfinder traces to something readable.",
   "main": "lib/index.js",
   "bin": {
     "jpf-trace-reader": "lib/index.js"
@@ -22,7 +23,15 @@
     "postinstall": "npm run build",
     "test": "mocha"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michael-emmi/jpf-trace-reader.git"
+  },
   "keywords": [],
   "author": "Michael Emmi <michael.emmi@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michael-emmi/jpf-trace-reader/issues"
+  },
+  "homepage": "https://github.com/michael-emmi/jpf-trace-reader#readme"
 }
