@@ -1,6 +1,6 @@
 {
   "name": "jpf-trace-reader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Converts Java Pathfinder traces to something readable.",
   "main": "lib/index.js",
   "bin": {
